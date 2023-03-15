@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-sketch</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="action.js" defer></script>
+    <div class="header">ETCH-A-SKETCH</div>
+    <div class="container">
+      <div class="toolbar">
+        <img src="clear.png" class="clear">
+        <div class="slidecontainer">GRID(1 to 32)
+          <input type="range" min="1" max="32" value="16" class="slider">
+          <button class="apply">Apply</button>
+        </div>
+      </div>
+      <div class="grid" id="grid-box"></div>
+    </div>
+  </body>
+</html>
